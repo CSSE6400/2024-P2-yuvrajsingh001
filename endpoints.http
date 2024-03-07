@@ -24,7 +24,13 @@ PUT {{baseUrl}}/api/v1/todos/1
 Content-Type: application/json
 
 {
-    "title": "updated title"
+    "title": "Updated Test Todo",
+    "description": "This is an updated test todo",
+    "completed": false,
+    "deadline_at": null,
+    "created_at": "2023-02-27T12:00:00.000000Z",
+    "updated_at": "2023-02-27T12:00:00.000000Z"
+
 }
 
 ### Delete a Todo
